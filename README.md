@@ -6,13 +6,19 @@ Este proyecto es una API para registrar y autenticar usuarios, desarrollada con 
 
 ## Instrucciones para ejecutar el proyecto
 
-1. **Arrancar el proyecto**:
+1. **Descargar Maven y configurarlo en Local**:
+   Este proyecto se empaqueta y busca dependencias con Maven. 
+   Si no tiene instalado MAVEN en windows. Favor, descargarlo y configurarlo: https://maven.apache.org/download.cgi
+2. **Arrancar el proyecto**:
    Ejecuta el siguiente comando en tu terminal:
    ```bash
    ./mvnw spring-boot:run
    ```
-
-2. **Detener el proyecto**:
+   o Si está instalado
+   ```bash
+   mvn spring-boot:run
+   ```
+3. **Detener el proyecto**:
    Presiona `CTRL + C` en tu terminal.
 
 ---
