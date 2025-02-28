@@ -121,7 +121,8 @@ El proyecto incluye documentación interactiva de los endpoints, generada autom�
    ```
    http://localhost:8888/swagger-ui.html
    ```
-2. Desde aquí, puedes probar los endpoints directamente, proporcionando las credenciales necesarias para cada método.
+2. Se debe autenticar con las credenciales anteriormente indicadas.
+3. Desde aquí, puedes probar los endpoints directamente, proporcionando las credenciales necesarias para cada método.
 
 ---
 
@@ -129,7 +130,7 @@ El proyecto incluye documentación interactiva de los endpoints, generada autom�
 
 El proyecto implementa las siguientes validaciones predefinidas:
 1. **Correo electrónico**: Valida que el email tenga un formato correcto.
-2. **Contraseña**: La validación de la contraseña es configurable en el archivo `ConstantesUtil.java`. Puedes ajustarla según las necesidades de tu proyecto.
+2. **Contraseña**: La validación de la contraseña es configurable en el archivo `application.properties`. Puedes ajustarla según las necesidades de tu proyecto.
 
 ---
 
